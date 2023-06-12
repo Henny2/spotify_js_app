@@ -1,4 +1,5 @@
-const clientId = "your-client-id-here"; // Replace with your client ID
+import CONFIG from "./config"
+const clientId = CONFIG.clientId; // Replace with your client ID
 const code = undefined;
 
 alert('hi')
